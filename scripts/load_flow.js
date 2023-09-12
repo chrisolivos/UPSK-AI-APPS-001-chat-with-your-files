@@ -1,5 +1,11 @@
+
+if (process.env.NODE_ENV!='production') {
+  require('dotenv').config();
+}
+
 const axios = require('axios');
 const chatFlow = require('../test/flow.json');
+
 
 const PORT = process.env.PORT;
 const openAIApiKey = process.env.OPENAI_API_KEY;

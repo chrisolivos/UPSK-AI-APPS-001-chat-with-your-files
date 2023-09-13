@@ -5,7 +5,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "load": "set PORT=3000&& node ./scripts/load_flow.js",
+    "load": "PORT=3000 node ./scripts/load_flow.js",
     "test": "jest"
   },
   "author": "",
